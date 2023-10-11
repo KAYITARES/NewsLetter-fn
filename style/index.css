@@ -275,3 +275,49 @@ a {
   color: grey;
   margin: 1.5rem 0;
 }
+.para {
+  font-size: 1.4rem;
+  margin: 2rem;
+  text-align: right;
+}
+.admin-container {
+  border: 1px solid grey;
+  width: 100%;
+}
+.admin-h {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 2rem;
+  font-size: 2.4rem;
+}
+.main-admin {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  width: 100%;
+}
+.link-side-admin {
+  background-color: #1b1b1b;
+}
+.admin-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.admin-links li {
+  padding: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+.admin-links a {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+  color: rgb(191, 191, 191);
+}
+.admin-links li:hover {
+  background: rgb(191, 191, 191);
+  color: #1b1b1b;
+}
