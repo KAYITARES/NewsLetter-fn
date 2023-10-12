@@ -292,7 +292,7 @@ a {
 }
 .main-admin {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 15% 70% 15%;
   width: 100%;
 }
 .link-side-admin {
@@ -317,7 +317,22 @@ a {
 
   color: rgb(191, 191, 191);
 }
-.admin-links li:hover {
-  background: rgb(191, 191, 191);
-  color: #1b1b1b;
+table {
+  width: 800px;
+  margin: 5rem auto;
+  border-collapse: collapse;
+}
+tr,
+th,
+td {
+  border: 1px solid grey;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+}
+.newsForm {
+  width: 800px;
+  margin: 5rem auto;
+}
+.newsForm input {
+  margin-bottom: 1.5rem;
 }
