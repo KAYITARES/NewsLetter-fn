@@ -26,6 +26,7 @@ fetch(`https://sapphire-buffalo-wear.cyclic.cloud/api/v1/news/${idParams}`)
     </div>
     <div class="conts">
     <h4>${data.data.newsTitle}</h4>
+
     </div>
     
     `;

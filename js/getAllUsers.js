@@ -1,6 +1,6 @@
 const token = window.localStorage.getItem("token");
 const table = document.querySelector(".tableusers");
-table.style.display = "none";
+
 fetch("https://sapphire-buffalo-wear.cyclic.cloud//api/v1/user", {
   headers: {
     "x-auth-token": token,
